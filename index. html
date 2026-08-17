@@ -747,6 +747,479 @@
     </div>
 
 </section>
+<!-- =========================================
+     PART 3 : SERVICES + PACKAGES
+========================================= -->
+
+
+<!-- =========================================
+     OUR SERVICES
+========================================= -->
+
+<section class="services-section" id="services">
+
+    <div class="services-container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                WHAT WE OFFER
+            </span>
+
+            <h2>
+                Our Services
+            </h2>
+
+        </div>
+
+
+        <!-- Services Cards -->
+
+        <div class="services-grid">
+
+
+            <!-- Service 01 -->
+
+            <div class="service-card">
+
+                <div class="service-icon robot-icon">
+
+                    <div class="robot-head">
+                        <div class="robot-eye left-eye"></div>
+                        <div class="robot-eye right-eye"></div>
+                        <div class="robot-mouth"></div>
+                    </div>
+
+                    <div class="robot-antenna"></div>
+
+                    <div class="robot-body"></div>
+
+                    <div class="robot-arm left-robot-arm"></div>
+                    <div class="robot-arm right-robot-arm"></div>
+
+                </div>
+
+                <h3>
+                    AI Legal Solutions
+                </h3>
+
+                <p>
+                    AI-powered tools and digital
+                    experiences designed for modern
+                    legal workflows.
+                </p>
+
+            </div>
+
+
+
+            <!-- Service 02 -->
+
+            <div class="service-card">
+
+                <div class="service-icon service-document-icon">
+
+                    <div class="service-document">
+
+                        <div class="document-corner"></div>
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Document Intelligence
+                </h3>
+
+                <p>
+                    Technology that helps organize,
+                    search, summarize, and work
+                    with legal documents.
+                </p>
+
+            </div>
+
+
+
+            <!-- Service 03 -->
+
+            <div class="service-card">
+
+                <div class="service-icon gear-icon">
+
+                    <div class="gear-center"></div>
+
+                    <div class="gear-tooth tooth-one"></div>
+                    <div class="gear-tooth tooth-two"></div>
+                    <div class="gear-tooth tooth-three"></div>
+                    <div class="gear-tooth tooth-four"></div>
+                    <div class="gear-tooth tooth-five"></div>
+                    <div class="gear-tooth tooth-six"></div>
+                    <div class="gear-tooth tooth-seven"></div>
+                    <div class="gear-tooth tooth-eight"></div>
+
+                </div>
+
+                <h3>
+                    Workflow Automation
+                </h3>
+
+                <p>
+                    Digital solutions designed to
+                    reduce repetitive tasks and
+                    improve productivity.
+                </p>
+
+            </div>
+
+
+
+            <!-- Service 04 -->
+
+            <div class="service-card">
+
+                <div class="service-icon code-icon">
+
+                    <div class="code-window">
+
+                        <div class="code-window-top"></div>
+
+                        <div class="code-symbol">
+                            &lt;/&gt;
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Custom Solutions
+                </h3>
+
+                <p>
+                    Tailored technology solutions
+                    based on a client's specific
+                    requirements.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Services Button -->
+
+        <div class="services-button-wrapper">
+
+            <a href="#" class="services-button">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     OUR PACKAGES
+========================================= -->
+
+<section class="packages-section" id="packages">
+
+    <div class="packages-container">
+
+
+        <!-- Package Heading -->
+
+        <div class="section-heading package-heading">
+
+            <span class="section-label">
+                CHOOSE THE RIGHT SOLUTION
+            </span>
+
+            <h2>
+                Our Packages
+            </h2>
+
+        </div>
+
+
+
+        <!-- Package Cards -->
+
+        <div class="packages-grid">
+
+
+            <!-- =================================
+                 STARTER PACKAGE
+            ================================== -->
+
+            <div class="package-card">
+
+                <div class="package-icon">
+
+                    <div class="paper-plane">
+
+                        <div class="plane-body"></div>
+                        <div class="plane-wing"></div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Starter
+                </h3>
+
+                <p class="package-description">
+                    For individuals &<br>
+                    small practices
+                </p>
+
+
+                <ul class="package-features">
+
+                    <li>
+                        <span>✓</span>
+                        Essential AI features
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Basic document management
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Simple workflow tools
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Standard support
+                    </li>
+
+                </ul>
+
+
+                <a href="#" class="package-button">
+                    Get Started
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PROFESSIONAL PACKAGE
+            ================================== -->
+
+            <div class="package-card popular-package">
+
+                <div class="popular-label">
+                    POPULAR
+                </div>
+
+                <div class="package-icon">
+
+                    <div class="briefcase-icon">
+
+                        <div class="briefcase-handle"></div>
+
+                        <div class="briefcase-body"></div>
+
+                        <div class="briefcase-line"></div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Professional
+                </h3>
+
+                <p class="package-description">
+                    For growing<br>
+                    legal teams
+                </p>
+
+
+                <ul class="package-features">
+
+                    <li>
+                        <span>✓</span>
+                        Advanced AI features
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Enhanced document intelligence
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Workflow optimization
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Priority support
+                    </li>
+
+                </ul>
+
+
+                <a href="#" class="package-button">
+                    Choose Professional
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================
+                 BUSINESS PACKAGE
+            ================================== -->
+
+            <div class="package-card">
+
+                <div class="package-icon">
+
+                    <div class="building-icon">
+
+                        <div class="building-roof"></div>
+
+                        <div class="building-body">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Business
+                </h3>
+
+                <p class="package-description">
+                    For<br>
+                    organizations
+                </p>
+
+
+                <ul class="package-features">
+
+                    <li>
+                        <span>✓</span>
+                        Advanced AI capabilities
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Custom workflows
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Team collaboration
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Advanced support
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Scalable solutions
+                    </li>
+
+                </ul>
+
+
+                <a href="#" class="package-button">
+                    Choose Business
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================
+                 CUSTOM PACKAGE
+            ================================== -->
+
+            <div class="package-card">
+
+                <div class="package-icon">
+
+                    <div class="puzzle-icon">
+
+                        <div class="puzzle-piece"></div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Custom
+                </h3>
+
+                <p class="package-description">
+                    Built Around Your<br>
+                    Requirements
+                </p>
+
+
+                <ul class="package-features custom-features">
+
+                    <li>
+                        Need something different?
+                    </li>
+
+                    <li>
+                        We can create a solution
+                    </li>
+
+                    <li>
+                        based on your organization's
+                    </li>
+
+                    <li>
+                        specific needs.
+                    </li>
+
+                </ul>
+
+
+                <a href="#" class="package-button">
+                    Talk to Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     </main>
 
 
