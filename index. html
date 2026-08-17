@@ -1220,6 +1220,402 @@
     </div>
 
 </section>
+<!-- =========================================
+     PART 4 : WHY US + HOW IT WORKS
+========================================= -->
+
+
+<!-- =========================================
+     WHY CHOOSE US
+========================================= -->
+
+<section class="why-us-section" id="why-us">
+
+    <div class="why-us-container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading why-heading">
+
+            <span class="section-label">
+                WHY CHOOSE US
+            </span>
+
+            <h2>
+                Why AI for Legal System?
+            </h2>
+
+        </div>
+
+
+        <!-- Why Us Features -->
+
+        <div class="why-us-grid">
+
+
+            <!-- Feature 01 -->
+
+            <div class="why-feature">
+
+                <div class="why-icon ai-driven-icon">
+
+                    <div class="ai-circle"></div>
+
+                    <div class="ai-dot dot-1"></div>
+                    <div class="ai-dot dot-2"></div>
+                    <div class="ai-dot dot-3"></div>
+                    <div class="ai-dot dot-4"></div>
+                    <div class="ai-dot dot-5"></div>
+
+                    <div class="ai-connection connection-1"></div>
+                    <div class="ai-connection connection-2"></div>
+                    <div class="ai-connection connection-3"></div>
+
+                </div>
+
+                <h3>
+                    AI-Driven
+                </h3>
+
+                <p>
+                    We focus on using modern AI
+                    technology to improve legal
+                    workflows.
+                </p>
+
+            </div>
+
+
+
+            <!-- Feature 02 -->
+
+            <div class="why-feature">
+
+                <div class="why-icon simple-icon">
+
+                    <div class="simple-shield">
+                        <span>✓</span>
+                    </div>
+
+                </div>
+
+                <h3>
+                    Simple Experience
+                </h3>
+
+                <p>
+                    Technology should be
+                    powerful without being
+                    unnecessarily complicated.
+                </p>
+
+            </div>
+
+
+
+            <!-- Feature 03 -->
+
+            <div class="why-feature">
+
+                <div class="why-icon security-icon">
+
+                    <div class="security-lock">
+
+                        <div class="lock-shackle"></div>
+                        <div class="lock-body"></div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Security-Minded
+                </h3>
+
+                <p>
+                    Privacy and responsible
+                    technology practices are
+                    at the core of our solutions.
+                </p>
+
+            </div>
+
+
+
+            <!-- Feature 04 -->
+
+            <div class="why-feature">
+
+                <div class="why-icon flexible-icon">
+
+                    <div class="flexible-shape shape-left"></div>
+                    <div class="flexible-shape shape-right"></div>
+
+                    <div class="flexible-center"></div>
+
+                </div>
+
+                <h3>
+                    Flexible
+                </h3>
+
+                <p>
+                    Solutions can be adapted to
+                    different workflows and
+                    organizational needs.
+                </p>
+
+            </div>
+
+
+
+            <!-- Feature 05 -->
+
+            <div class="why-feature">
+
+                <div class="why-icon future-icon">
+
+                    <div class="rocket">
+
+                        <div class="rocket-body"></div>
+
+                        <div class="rocket-window"></div>
+
+                        <div class="rocket-fin left-fin"></div>
+                        <div class="rocket-fin right-fin"></div>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Future Ready
+                </h3>
+
+                <p>
+                    We build with the rapidly
+                    evolving future of AI and legal
+                    technology in mind.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     HOW IT WORKS
+========================================= -->
+
+<section class="process-section" id="process">
+
+    <div class="process-container">
+
+        <!-- Process Heading -->
+
+        <div class="section-heading process-heading">
+
+            <span class="section-label">
+                FROM IDEA TO INTELLIGENT SOLUTION
+            </span>
+
+            <h2>
+                How It Works
+            </h2>
+
+        </div>
+
+
+        <!-- Process Timeline -->
+
+        <div class="process-timeline">
+
+
+            <!-- Connecting Line -->
+
+            <div class="process-line"></div>
+
+
+            <!-- Step 01 -->
+
+            <div class="process-step">
+
+                <div class="process-icon">
+
+                    <div class="understand-icon">
+
+                        <div class="understand-hand"></div>
+
+                        <div class="understand-circle"></div>
+
+                    </div>
+
+                </div>
+
+                <span class="process-number">
+                    01
+                </span>
+
+                <h3>
+                    Understand
+                </h3>
+
+                <p>
+                    We learn about your
+                    requirements and
+                    workflow.
+                </p>
+
+            </div>
+
+
+
+            <!-- Step 02 -->
+
+            <div class="process-step">
+
+                <div class="process-icon">
+
+                    <div class="plan-icon">
+
+                        <div class="plan-box"></div>
+
+                        <div class="plan-handle"></div>
+
+                    </div>
+
+                </div>
+
+                <span class="process-number">
+                    02
+                </span>
+
+                <h3>
+                    Plan
+                </h3>
+
+                <p>
+                    We identify where
+                    technology and AI
+                    can provide value.
+                </p>
+
+            </div>
+
+
+
+            <!-- Step 03 -->
+
+            <div class="process-step">
+
+                <div class="process-icon">
+
+                    <div class="build-icon">
+
+                        <div class="build-window">
+
+                            <span>&lt;/&gt;</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="process-number">
+                    03
+                </span>
+
+                <h3>
+                    Build
+                </h3>
+
+                <p>
+                    We develop the
+                    required digital
+                    solution.
+                </p>
+
+            </div>
+
+
+
+            <!-- Step 04 -->
+
+            <div class="process-step">
+
+                <div class="process-icon">
+
+                    <div class="test-icon">
+
+                        <div class="test-circle">
+                            ✓
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="process-number">
+                    04
+                </span>
+
+                <h3>
+                    Test
+                </h3>
+
+                <p>
+                    We evaluate
+                    functionality, usability,
+                    and reliability.
+                </p>
+
+            </div>
+
+
+
+            <!-- Step 05 -->
+
+            <div class="process-step">
+
+                <div class="process-icon">
+
+                    <div class="launch-icon">
+
+                        <div class="launch-rocket"></div>
+
+                        <div class="launch-window"></div>
+
+                    </div>
+
+                </div>
+
+                <span class="process-number">
+                    05
+                </span>
+
+                <h3>
+                    Launch
+                </h3>
+
+                <p>
+                    Your solution is ready
+                    to become part of your
+                    digital workflow.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     </main>
 
 
