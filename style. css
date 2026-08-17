@@ -2932,3 +2932,850 @@ a {
     }
 
 }
+/* =========================================
+   PART 4
+   WHY US + HOW IT WORKS
+========================================= */
+
+
+/* =========================================
+   WHY CHOOSE US SECTION
+========================================= */
+
+.why-us-section {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 3px 34px 20px;
+}
+
+.why-us-container {
+    width: 100%;
+
+    max-width: 1310px;
+
+    margin: 0 auto;
+}
+
+
+
+/* =========================================
+   WHY US HEADING
+========================================= */
+
+.why-heading {
+    margin-bottom: 14px;
+}
+
+
+
+/* =========================================
+   WHY US GRID
+========================================= */
+
+.why-us-grid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 12px;
+}
+
+.why-feature {
+    text-align: center;
+
+    padding: 0 8px;
+}
+
+
+
+/* =========================================
+   WHY US ICON
+========================================= */
+
+.why-icon {
+    position: relative;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 0 auto 6px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* =========================================
+   AI-DRIVEN ICON
+========================================= */
+
+.ai-circle {
+    position: absolute;
+
+    width: 18px;
+    height: 18px;
+
+    border: 1.7px solid #222222;
+
+    border-radius: 50%;
+
+    left: 12px;
+    top: 12px;
+}
+
+.ai-circle::before {
+    content: "";
+
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    background: #222222;
+
+    border-radius: 50%;
+
+    left: 5px;
+    top: 5px;
+}
+
+.ai-dot {
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    border: 1px solid #222222;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+}
+
+.dot-1 {
+    left: 2px;
+    top: 4px;
+}
+
+.dot-2 {
+    right: 2px;
+    top: 4px;
+}
+
+.dot-3 {
+    left: 2px;
+    bottom: 4px;
+}
+
+.dot-4 {
+    right: 2px;
+    bottom: 4px;
+}
+
+.dot-5 {
+    left: 18px;
+    top: 0;
+}
+
+.ai-connection {
+    position: absolute;
+
+    width: 10px;
+    height: 1px;
+
+    background: #333333;
+
+    transform-origin: left center;
+}
+
+.connection-1 {
+    left: 7px;
+    top: 9px;
+
+    transform: rotate(22deg);
+}
+
+.connection-2 {
+    right: 7px;
+    top: 9px;
+
+    transform: rotate(158deg);
+}
+
+.connection-3 {
+    left: 9px;
+    bottom: 10px;
+
+    transform: rotate(-25deg);
+}
+
+
+
+/* =========================================
+   SIMPLE EXPERIENCE ICON
+========================================= */
+
+.simple-shield {
+    position: relative;
+
+    width: 27px;
+    height: 32px;
+
+    border: 1.7px solid #444444;
+
+    clip-path: polygon(
+        50% 0,
+        94% 15%,
+        88% 62%,
+        70% 85%,
+        50% 100%,
+        30% 85%,
+        12% 62%,
+        6% 15%
+    );
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.simple-shield span {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #333333;
+}
+
+
+
+/* =========================================
+   SECURITY ICON
+========================================= */
+
+.security-lock {
+    position: relative;
+
+    width: 27px;
+    height: 31px;
+}
+
+.lock-shackle {
+    position: absolute;
+
+    width: 14px;
+    height: 13px;
+
+    border: 2px solid #333333;
+
+    border-bottom: none;
+
+    border-radius: 8px 8px 0 0;
+
+    left: 6px;
+    top: 2px;
+}
+
+.lock-body {
+    position: absolute;
+
+    width: 27px;
+    height: 21px;
+
+    background: #ffffff;
+
+    border: 2px solid #333333;
+
+    border-radius: 3px;
+
+    bottom: 1px;
+}
+
+.lock-body::after {
+    content: "";
+
+    position: absolute;
+
+    width: 3px;
+    height: 8px;
+
+    background: #333333;
+
+    border-radius: 3px;
+
+    left: 10px;
+    top: 6px;
+}
+
+
+
+/* =========================================
+   FLEXIBLE ICON
+========================================= */
+
+.flexible-icon {
+    position: relative;
+}
+
+.flexible-shape {
+    position: absolute;
+
+    width: 14px;
+    height: 14px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 4px;
+}
+
+.shape-left {
+    left: 4px;
+    top: 13px;
+
+    transform: rotate(25deg);
+}
+
+.shape-right {
+    right: 4px;
+    top: 13px;
+
+    transform: rotate(-25deg);
+}
+
+.flexible-center {
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 50%;
+
+    left: 15px;
+    top: 8px;
+
+    background: #ffffff;
+
+    z-index: 2;
+}
+
+
+
+/* =========================================
+   FUTURE READY ROCKET
+========================================= */
+
+.rocket {
+    position: relative;
+
+    width: 30px;
+    height: 34px;
+
+    transform: rotate(40deg);
+}
+
+.rocket-body {
+    position: absolute;
+
+    width: 14px;
+    height: 25px;
+
+    background: #ffffff;
+
+    border: 1.7px solid #222222;
+
+    border-radius: 50% 50% 45% 45%;
+
+    left: 8px;
+    top: 2px;
+}
+
+.rocket-window {
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    border: 1px solid #222222;
+
+    border-radius: 50%;
+
+    left: 12px;
+    top: 8px;
+}
+
+.rocket-fin {
+    position: absolute;
+
+    width: 7px;
+    height: 9px;
+
+    background: #222222;
+
+    bottom: 5px;
+}
+
+.left-fin {
+    left: 5px;
+
+    transform: rotate(20deg);
+}
+
+.right-fin {
+    right: 5px;
+
+    transform: rotate(-20deg);
+}
+
+
+
+/* =========================================
+   WHY US TEXT
+========================================= */
+
+.why-feature h3 {
+    font-size: 10px;
+
+    line-height: 1.25;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.why-feature p {
+    font-size: 8px;
+
+    line-height: 1.5;
+
+    color: #444444;
+
+    max-width: 175px;
+
+    margin: 0 auto;
+}
+
+
+
+/* =========================================
+   PROCESS SECTION
+========================================= */
+
+.process-section {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 3px 34px 32px;
+}
+
+.process-container {
+    width: 100%;
+
+    max-width: 1310px;
+
+    margin: 0 auto;
+}
+
+
+
+/* =========================================
+   PROCESS HEADING
+========================================= */
+
+.process-heading {
+    margin-bottom: 17px;
+}
+
+
+
+/* =========================================
+   PROCESS TIMELINE
+========================================= */
+
+.process-timeline {
+    position: relative;
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(5, 1fr);
+
+    gap: 20px;
+
+    padding: 0 28px;
+}
+
+
+
+/* Connecting line */
+
+.process-line {
+    position: absolute;
+
+    height: 1px;
+
+    background: #cfcfcf;
+
+    left: 10%;
+
+    right: 10%;
+
+    top: 26px;
+
+    z-index: 0;
+}
+
+
+
+/* =========================================
+   PROCESS STEP
+========================================= */
+
+.process-step {
+    position: relative;
+
+    z-index: 1;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+/* =========================================
+   PROCESS ICON
+========================================= */
+
+.process-icon {
+    width: 52px;
+    height: 52px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 7px;
+}
+
+
+
+/* =========================================
+   UNDERSTAND ICON
+========================================= */
+
+.understand-icon {
+    position: relative;
+
+    width: 25px;
+    height: 25px;
+}
+
+.understand-circle {
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 50%;
+
+    left: 5px;
+    top: 5px;
+}
+
+.understand-hand {
+    position: absolute;
+
+    width: 10px;
+    height: 7px;
+
+    border-left: 1.5px solid #333333;
+    border-bottom: 1.5px solid #333333;
+
+    left: 8px;
+    top: 10px;
+
+    transform: rotate(-35deg);
+}
+
+
+
+/* =========================================
+   PLAN ICON
+========================================= */
+
+.plan-icon {
+    position: relative;
+
+    width: 24px;
+    height: 26px;
+}
+
+.plan-box {
+    position: absolute;
+
+    width: 20px;
+    height: 19px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 3px;
+
+    left: 2px;
+    bottom: 0;
+}
+
+.plan-handle {
+    position: absolute;
+
+    width: 8px;
+    height: 6px;
+
+    border: 1.5px solid #333333;
+
+    border-bottom: none;
+
+    border-radius: 3px 3px 0 0;
+
+    left: 8px;
+    top: 1px;
+}
+
+
+
+/* =========================================
+   BUILD ICON
+========================================= */
+
+.build-icon {
+    width: 26px;
+    height: 24px;
+}
+
+.build-window {
+    width: 25px;
+    height: 20px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 3px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.build-window span {
+    font-size: 9px;
+
+    font-weight: 700;
+
+    color: #333333;
+}
+
+
+
+/* =========================================
+   TEST ICON
+========================================= */
+
+.test-icon {
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.test-circle {
+    width: 21px;
+    height: 21px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+
+
+/* =========================================
+   LAUNCH ICON
+========================================= */
+
+.launch-icon {
+    position: relative;
+
+    width: 27px;
+    height: 27px;
+
+    transform: rotate(-30deg);
+}
+
+.launch-rocket {
+    position: absolute;
+
+    width: 10px;
+    height: 21px;
+
+    border: 1.5px solid #333333;
+
+    border-radius: 50%;
+
+    left: 9px;
+    top: 1px;
+}
+
+.launch-window {
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    border: 1px solid #333333;
+
+    border-radius: 50%;
+
+    left: 12px;
+    top: 6px;
+}
+
+
+
+/* =========================================
+   PROCESS TEXT
+========================================= */
+
+.process-number {
+    font-size: 7px;
+
+    line-height: 1;
+
+    font-weight: 600;
+
+    color: #444444;
+
+    margin-bottom: 3px;
+}
+
+.process-step h3 {
+    font-size: 10px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.process-step p {
+    max-width: 135px;
+
+    font-size: 7.5px;
+
+    line-height: 1.45;
+
+    color: #444444;
+}
+
+
+
+/* =========================================
+   PART 4 RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .why-us-grid {
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        row-gap: 25px;
+    }
+
+    .process-timeline {
+        gap: 10px;
+
+        padding: 0 10px;
+    }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+    .why-us-section,
+    .process-section {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .why-us-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        row-gap: 28px;
+    }
+
+    .process-timeline {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0;
+    }
+
+    .process-line {
+        width: 1px;
+
+        height: calc(100% - 52px);
+
+        left: 50%;
+
+        right: auto;
+
+        top: 26px;
+    }
+
+    .process-step {
+        background: #ffffff;
+    }
+
+}
