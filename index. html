@@ -1616,6 +1616,354 @@
     </div>
 
 </section>
+<!-- =========================================
+     PART 5 : FINAL CTA + FOOTER
+========================================= -->
+
+
+<!-- =========================================
+     FINAL CTA SECTION
+========================================= -->
+
+<section class="final-cta-section">
+
+    <div class="final-cta-container">
+
+        <!-- CTA Icon -->
+
+        <div class="cta-legal-icon">
+
+            <div class="cta-scale">
+
+                <div class="cta-scale-top"></div>
+
+                <div class="cta-scale-column"></div>
+
+                <div class="cta-scale-arm cta-left-arm">
+                    <span></span>
+                    <i></i>
+                </div>
+
+                <div class="cta-scale-arm cta-right-arm">
+                    <span></span>
+                    <i></i>
+                </div>
+
+                <div class="cta-scale-base"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CTA Content -->
+
+        <div class="final-cta-content">
+
+            <span class="cta-label">
+                LET'S BUILD THE FUTURE
+            </span>
+
+            <h2>
+                Ready to Build a Smarter<br>
+                Legal Future?
+            </h2>
+
+            <p>
+                Let's explore how AI and modern technology
+                can help transform your legal workflow.
+            </p>
+
+
+            <!-- CTA Buttons -->
+
+            <div class="cta-buttons">
+
+                <a href="#" class="cta-primary-button">
+                    Start a Conversation
+                </a>
+
+                <a href="#" class="cta-secondary-button">
+                    Explore Solutions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="site-footer" id="contact">
+
+    <div class="footer-container">
+
+
+        <!-- =================================
+             FOOTER BRAND
+        ================================== -->
+
+        <div class="footer-brand-column">
+
+            <a href="#home" class="footer-brand">
+
+                <div class="footer-brand-icon">
+
+                    <div class="footer-scale-beam"></div>
+
+                    <div class="footer-scale-stand"></div>
+
+                    <div class="footer-scale-left"></div>
+                    <div class="footer-scale-right"></div>
+
+                </div>
+
+                <span>
+                    AI for Legal System
+                </span>
+
+            </a>
+
+
+            <p class="footer-description">
+                Building smarter legal experiences through
+                artificial intelligence and modern technology.
+            </p>
+
+
+            <!-- Social Icons -->
+
+            <div class="footer-socials">
+
+                <a href="#" aria-label="LinkedIn">
+                    in
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    X
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    ◎
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================
+             QUICK LINKS
+        ================================== -->
+
+        <div class="footer-column">
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages">
+                        Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#why-us">
+                        Why Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#process">
+                        Process
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- =================================
+             SERVICES
+        ================================== -->
+
+        <div class="footer-column">
+
+            <h3>
+                Services
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#services">
+                        AI Legal Solutions
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Document Intelligence
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Workflow Automation
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Custom Solutions
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- =================================
+             CONTACT
+        ================================== -->
+
+        <div class="footer-column contact-column">
+
+            <h3>
+                Contact Us
+            </h3>
+
+            <ul>
+
+                <li>
+                    <span class="contact-icon">
+                        @
+                    </span>
+
+                    <a href="mailto:hello@example.com">
+                        hello@example.com
+                    </a>
+                </li>
+
+                <li>
+                    <span class="contact-icon">
+                        +
+                    </span>
+
+                    <span>
+                        +91 XXXXX XXXXX
+                    </span>
+                </li>
+
+                <li>
+                    <span class="contact-icon">
+                        ◇
+                    </span>
+
+                    <span>
+                        India
+                    </span>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- =================================
+             LEGAL
+        ================================== -->
+
+        <div class="footer-column legal-column">
+
+            <h3>
+                Legal
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Terms of Service
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Disclaimer
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================
+         FOOTER BOTTOM
+    ================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 AI for Legal System. All rights reserved.
+            </p>
+
+            <p>
+                AI technology is intended to support,
+                not replace, qualified legal professionals.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
     </main>
 
 
