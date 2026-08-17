@@ -1926,3 +1926,1009 @@ a {
     }
 
 }
+/* =========================================
+   PART 3
+   SERVICES + PACKAGES
+========================================= */
+
+
+/* =========================================
+   SERVICES SECTION
+========================================= */
+
+.services-section {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 8px 34px 20px;
+}
+
+.services-container {
+    width: 100%;
+
+    max-width: 1310px;
+
+    margin: 0 auto;
+}
+
+
+
+/* =========================================
+   COMMON SECTION HEADING
+========================================= */
+
+.section-heading {
+    text-align: center;
+
+    margin-bottom: 9px;
+}
+
+.section-label {
+    display: block;
+
+    font-size: 8px;
+
+    line-height: 1;
+
+    letter-spacing: 1.5px;
+
+    font-weight: 700;
+
+    color: #333333;
+
+    margin-bottom: 5px;
+}
+
+.section-heading h2 {
+    font-size: 20px;
+
+    line-height: 1.1;
+
+    letter-spacing: -0.6px;
+
+    font-weight: 700;
+}
+
+
+
+/* =========================================
+   SERVICES GRID
+========================================= */
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 11px;
+}
+
+.service-card {
+    min-height: 122px;
+
+    border: 1px solid #e4e4e4;
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    padding: 11px 14px;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+/* =========================================
+   SERVICE ICON
+========================================= */
+
+.service-icon {
+    width: 38px;
+    height: 38px;
+
+    position: relative;
+
+    margin-bottom: 5px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+
+/* =========================================
+   ROBOT ICON
+========================================= */
+
+.robot-head {
+    position: absolute;
+
+    width: 25px;
+    height: 20px;
+
+    border: 2px solid #222222;
+
+    border-radius: 6px;
+
+    top: 8px;
+}
+
+.robot-eye {
+    position: absolute;
+
+    width: 3px;
+    height: 3px;
+
+    background: #222222;
+
+    border-radius: 50%;
+
+    top: 6px;
+}
+
+.left-eye {
+    left: 6px;
+}
+
+.right-eye {
+    right: 6px;
+}
+
+.robot-mouth {
+    position: absolute;
+
+    width: 8px;
+    height: 2px;
+
+    border-bottom: 1.5px solid #222222;
+
+    left: 7px;
+    bottom: 4px;
+}
+
+.robot-antenna {
+    position: absolute;
+
+    width: 1.5px;
+    height: 7px;
+
+    background: #222222;
+
+    top: 1px;
+}
+
+.robot-antenna::before {
+    content: "";
+
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    border: 1px solid #222222;
+
+    border-radius: 50%;
+
+    top: -4px;
+    left: -1px;
+}
+
+.robot-body {
+    position: absolute;
+
+    width: 22px;
+    height: 9px;
+
+    border: 2px solid #222222;
+
+    border-radius: 4px;
+
+    bottom: 0;
+}
+
+.robot-arm {
+    position: absolute;
+
+    width: 7px;
+    height: 2px;
+
+    background: #222222;
+
+    bottom: 5px;
+}
+
+.left-robot-arm {
+    left: 1px;
+
+    transform: rotate(30deg);
+}
+
+.right-robot-arm {
+    right: 1px;
+
+    transform: rotate(-30deg);
+}
+
+
+
+/* =========================================
+   DOCUMENT ICON
+========================================= */
+
+.service-document {
+    position: relative;
+
+    width: 23px;
+    height: 29px;
+
+    border: 1.7px solid #222222;
+
+    border-radius: 2px;
+}
+
+.document-corner {
+    position: absolute;
+
+    width: 8px;
+    height: 8px;
+
+    right: -1px;
+    top: -1px;
+
+    background: #ffffff;
+
+    border-left: 1.5px solid #222222;
+    border-bottom: 1.5px solid #222222;
+}
+
+.service-document span {
+    position: absolute;
+
+    width: 11px;
+    height: 1px;
+
+    background: #444444;
+
+    left: 5px;
+}
+
+.service-document span:nth-of-type(1) {
+    top: 12px;
+}
+
+.service-document span:nth-of-type(2) {
+    top: 17px;
+}
+
+.service-document span:nth-of-type(3) {
+    width: 7px;
+
+    top: 22px;
+}
+
+
+
+/* =========================================
+   GEAR ICON
+========================================= */
+
+.gear-icon {
+    width: 37px;
+    height: 37px;
+}
+
+.gear-center {
+    position: absolute;
+
+    width: 13px;
+    height: 13px;
+
+    border: 3px solid #111111;
+
+    border-radius: 50%;
+
+    top: 12px;
+    left: 12px;
+
+    z-index: 2;
+
+    background: #ffffff;
+}
+
+.gear-tooth {
+    position: absolute;
+
+    width: 8px;
+    height: 8px;
+
+    background: #111111;
+
+    left: 14px;
+    top: 2px;
+}
+
+.tooth-one {
+    transform: rotate(0deg);
+}
+
+.tooth-two {
+    transform: rotate(45deg);
+}
+
+.tooth-three {
+    transform: rotate(90deg);
+}
+
+.tooth-four {
+    transform: rotate(135deg);
+}
+
+.tooth-five {
+    transform: rotate(180deg);
+}
+
+.tooth-six {
+    transform: rotate(225deg);
+}
+
+.tooth-seven {
+    transform: rotate(270deg);
+}
+
+.tooth-eight {
+    transform: rotate(315deg);
+}
+
+
+
+/* =========================================
+   CODE ICON
+========================================= */
+
+.code-window {
+    position: relative;
+
+    width: 31px;
+    height: 25px;
+
+    border: 1.8px solid #222222;
+
+    border-radius: 3px;
+}
+
+.code-window-top {
+    position: absolute;
+
+    width: 100%;
+    height: 6px;
+
+    border-bottom: 1px solid #222222;
+
+    top: 0;
+}
+
+.code-window-top::before,
+.code-window-top::after {
+    content: "";
+
+    position: absolute;
+
+    width: 3px;
+    height: 3px;
+
+    border-radius: 50%;
+
+    background: #222222;
+
+    top: 2px;
+}
+
+.code-window-top::before {
+    left: 4px;
+}
+
+.code-window-top::after {
+    left: 10px;
+}
+
+.code-symbol {
+    position: absolute;
+
+    width: 100%;
+
+    text-align: center;
+
+    bottom: 3px;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    color: #222222;
+}
+
+
+
+/* =========================================
+   SERVICE TEXT
+========================================= */
+
+.service-card h3 {
+    font-size: 10.5px;
+
+    line-height: 1.25;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.service-card p {
+    max-width: 210px;
+
+    font-size: 8px;
+
+    line-height: 1.45;
+
+    color: #444444;
+}
+
+
+
+/* =========================================
+   SERVICES BUTTON
+========================================= */
+
+.services-button-wrapper {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.services-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 88px;
+
+    height: 26px;
+
+    padding: 0 13px;
+
+    background: #111111;
+
+    color: #ffffff;
+
+    border-radius: 4px;
+
+    font-size: 8.5px;
+
+    font-weight: 600;
+}
+
+
+
+/* =========================================
+   PACKAGES SECTION
+========================================= */
+
+.packages-section {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 3px 34px 28px;
+}
+
+.packages-container {
+    width: 100%;
+
+    max-width: 1310px;
+
+    margin: 0 auto;
+
+    border: 1px solid #eeeeee;
+
+    border-radius: 6px;
+
+    padding: 9px 20px 17px;
+
+    background: #ffffff;
+}
+
+.package-heading {
+    margin-bottom: 8px;
+}
+
+
+
+/* =========================================
+   PACKAGES GRID
+========================================= */
+
+.packages-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+}
+
+
+
+/* =========================================
+   PACKAGE CARD
+========================================= */
+
+.package-card {
+    position: relative;
+
+    min-height: 195px;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 5px;
+
+    background: #ffffff;
+
+    padding: 12px 11px 10px;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+/* =========================================
+   POPULAR LABEL
+========================================= */
+
+.popular-label {
+    position: absolute;
+
+    top: -6px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #111111;
+
+    color: #ffffff;
+
+    padding: 2px 7px;
+
+    border-radius: 3px;
+
+    font-size: 6px;
+
+    line-height: 1;
+
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+}
+
+
+
+/* =========================================
+   PACKAGE ICON
+========================================= */
+
+.package-icon {
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+
+    margin-bottom: 4px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+
+/* =========================================
+   PAPER PLANE
+========================================= */
+
+.paper-plane {
+    position: relative;
+
+    width: 27px;
+    height: 24px;
+
+    transform: rotate(-8deg);
+}
+
+.plane-body {
+    position: absolute;
+
+    width: 25px;
+    height: 19px;
+
+    border-top: 2px solid #222222;
+
+    border-right: 2px solid #222222;
+
+    transform: skew(-28deg) rotate(-19deg);
+
+    top: 3px;
+    left: 1px;
+}
+
+.plane-wing {
+    position: absolute;
+
+    width: 15px;
+    height: 2px;
+
+    background: #222222;
+
+    transform: rotate(28deg);
+
+    top: 12px;
+    left: 6px;
+}
+
+
+
+/* =========================================
+   BRIEFCASE
+========================================= */
+
+.briefcase-icon {
+    position: relative;
+
+    width: 26px;
+    height: 23px;
+}
+
+.briefcase-body {
+    position: absolute;
+
+    width: 26px;
+    height: 17px;
+
+    border: 1.8px solid #222222;
+
+    border-radius: 3px;
+
+    bottom: 0;
+}
+
+.briefcase-handle {
+    position: absolute;
+
+    width: 10px;
+    height: 6px;
+
+    border: 1.8px solid #222222;
+
+    border-bottom: none;
+
+    border-radius: 3px 3px 0 0;
+
+    top: 0;
+    left: 8px;
+}
+
+.briefcase-line {
+    position: absolute;
+
+    width: 22px;
+    height: 1px;
+
+    background: #222222;
+
+    bottom: 8px;
+    left: 2px;
+}
+
+
+
+/* =========================================
+   BUILDING
+========================================= */
+
+.building-icon {
+    position: relative;
+
+    width: 24px;
+    height: 28px;
+}
+
+.building-roof {
+    position: absolute;
+
+    width: 25px;
+    height: 4px;
+
+    background: #222222;
+
+    top: 1px;
+
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.building-body {
+    position: absolute;
+
+    width: 20px;
+    height: 22px;
+
+    border: 1.5px solid #222222;
+
+    left: 2px;
+    bottom: 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 2px;
+
+    padding: 3px;
+}
+
+.building-body span {
+    border: 1px solid #333333;
+}
+
+
+
+/* =========================================
+   PUZZLE ICON
+========================================= */
+
+.puzzle-icon {
+    width: 28px;
+    height: 28px;
+
+    position: relative;
+}
+
+.puzzle-piece {
+    position: absolute;
+
+    width: 22px;
+    height: 22px;
+
+    left: 3px;
+    top: 3px;
+
+    background: #222222;
+
+    clip-path: polygon(
+        0 0,
+        35% 0,
+        35% 14%,
+        48% 14%,
+        48% 0,
+        100% 0,
+        100% 35%,
+        87% 35%,
+        87% 48%,
+        100% 48%,
+        100% 100%,
+        52% 100%,
+        52% 87%,
+        38% 87%,
+        38% 100%,
+        0 100%,
+        0 50%,
+        13% 50%,
+        13% 37%,
+        0 37%
+    );
+}
+
+
+
+/* =========================================
+   PACKAGE TEXT
+========================================= */
+
+.package-card h3 {
+    font-size: 12px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    margin-bottom: 3px;
+}
+
+.package-description {
+    font-size: 8px;
+
+    line-height: 1.35;
+
+    color: #444444;
+
+    min-height: 23px;
+
+    margin-bottom: 7px;
+}
+
+
+
+/* =========================================
+   PACKAGE FEATURES
+========================================= */
+
+.package-features {
+    width: 100%;
+
+    list-style: none;
+
+    text-align: left;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    margin-bottom: 9px;
+
+    flex: 1;
+}
+
+.package-features li {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 5px;
+
+    font-size: 7.5px;
+
+    line-height: 1.35;
+
+    color: #333333;
+}
+
+.package-features li span {
+    font-size: 8px;
+
+    font-weight: 700;
+
+    color: #222222;
+}
+
+
+
+/* Custom package text */
+
+.custom-features li {
+    display: block;
+
+    text-align: center;
+
+    font-size: 7.5px;
+}
+
+.custom-features {
+    gap: 3px;
+}
+
+
+
+/* =========================================
+   PACKAGE BUTTON
+========================================= */
+
+.package-button {
+    width: 100%;
+
+    height: 24px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #111111;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    font-size: 7.5px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+
+
+/* =========================================
+   PART 3 RESPONSIVE
+========================================= */
+
+@media (max-width: 950px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .packages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .packages-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .services-section {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .packages-section {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .packages-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .service-card {
+        min-height: 135px;
+    }
+
+    .package-card {
+        min-height: 205px;
+    }
+
+}
